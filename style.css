@@ -132,6 +132,33 @@ section{
     font-weight: bold;
 }
 
+/* This is about us section  */
+
+.about-us{
+   margin-top: 10%;
+   margin-bottom: 8%;
+}
+
+.about-us-text{
+    width: 70%;
+    margin-right: 10%;   
+}
+.about-us-text h1{
+    font-size: 40px;
+    margin-top: 0px;
+}
+.about-us-img{
+    image-rendering: 5px;
+    margin-top: 50px;
+}
+.clickme-btn{
+    text-decoration: none;
+    color: papayawhip;
+    border-radius: 4px;
+    padding: 8px 25px;
+    background-image: linear-gradient(tomato, orange);
+}
+
 /* This is footer section  */
 
 .footer{
