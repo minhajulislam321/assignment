@@ -1,6 +1,17 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
 }
+section{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* This is top banner section  */
+
 .text{
     width: 50%;
 }
@@ -12,8 +23,9 @@ body{
     background-image: linear-gradient(tomato, orange);
     text-decoration: none;
     padding: 10px 25px;
-    color: whitesmoke;
+    color: papayawhip;
     margin-bottom: 2%;
+    font-weight: bold;
 }
 .img{
     width: 50%;
@@ -21,18 +33,13 @@ body{
     margin-right: 0%;
     margin-top: 2%;
 }
-section{
-    display: flex;
-    margin-left: 10%;
-    margin-top: 5%;
-}
 .text h1{
     font-size: 50px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Yeseva One', cursive;
     border-left: solid tomato;
     padding-left: 15px;
-    
+    font-weight: 550;
 }
 .text p{
     margin-bottom: 6%;
@@ -40,25 +47,28 @@ section{
 .p{
     margin-top: 8%;
 }
+
+/* This is my mission section  */
+
 .mission{
     width: 30%;
     border-radius: 27px;
     padding: 20px;
-    background-color: rgb(253, 215, 144);
+    background-color: rgb(226, 182, 100);
     margin-right: 2%;
 }
 .vission{
     width: 30%;
     border-radius: 27px;
     padding: 20px;
-    background-color: rgb(238, 200, 206);
+    background-color: rgb(228, 152, 163);
     margin-right: 2%;
     margin-left: 2%;
 }
 .goals{
     width: 30%;
     border-radius: 27px;
-    background-color: rgb(198, 230, 226);
+    background-color: rgb(154, 228, 218);
     padding: 20px;
     margin-left: 2%;
 }
@@ -68,11 +78,20 @@ section{
 .my-mission{
     margin-right: 10%;
 }
+.coding-png{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60%;
+    margin-right: 80%; 
+}
+
+/* This is develop section  */
+
 .develop-text{
     margin-right: 10%;
     margin-left: 0%;
-    margin-top: 0%;
-    
+    margin-top: 0%;   
 }
 .develop-text h1{
     font-size: 35px;
@@ -81,7 +100,12 @@ section{
 .develop-text p{
     margin-bottom: 4%;
 }
-
+.h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+}
 .coding-png{
     margin-right: 0%;
     margin-top: 2%;
@@ -91,9 +115,12 @@ section{
     border-radius: 5px;
     background-image: linear-gradient(tomato, orange);
     padding: 8px 25px;
-    color: whitesmoke;
-    
+    color: papayawhip;
+    font-weight: bold;  
 }
+
+/* This is global community section  */
+
 .project-png{
     margin-left: 5%;
 }
@@ -108,5 +135,24 @@ section{
     background-image: linear-gradient(tomato, orange);
     padding: 8px 25px;
     text-decoration: none;
+    color: papayawhip;
+    font-weight: bold;
+}
+
+/* This is footer section  */
+
+.footer{
+    text-align: center;
+    background-color: rgb(6, 6, 15);
+    margin-bottom: 0px;
+    padding: 2%;
+    margin-top: 5%;
+}
+.footer h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+}
+.footer p{
     color: whitesmoke;
 }
