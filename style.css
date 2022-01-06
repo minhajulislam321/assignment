@@ -1,0 +1,112 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.text{
+    width: 50%;
+}
+.text-color{
+    color: tomato;
+}
+.banner-btn{
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, orange);
+    text-decoration: none;
+    padding: 10px 25px;
+    color: whitesmoke;
+    margin-bottom: 2%;
+}
+.img{
+    width: 50%;
+    padding-left: 10%;
+    margin-right: 0%;
+    margin-top: 2%;
+}
+section{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.text h1{
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    border-left: solid tomato;
+    padding-left: 15px;
+    
+}
+.text p{
+    margin-bottom: 6%;
+}
+.p{
+    margin-top: 8%;
+}
+.mission{
+    width: 30%;
+    border-radius: 27px;
+    padding: 20px;
+    background-color: rgb(253, 215, 144);
+    margin-right: 2%;
+}
+.vission{
+    width: 30%;
+    border-radius: 27px;
+    padding: 20px;
+    background-color: rgb(238, 200, 206);
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.goals{
+    width: 30%;
+    border-radius: 27px;
+    background-color: rgb(198, 230, 226);
+    padding: 20px;
+    margin-left: 2%;
+}
+.illustrutor-3{
+    width: 35%;
+}
+.my-mission{
+    margin-right: 10%;
+}
+.develop-text{
+    margin-right: 10%;
+    margin-left: 0%;
+    margin-top: 0%;
+    
+}
+.develop-text h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.develop-text p{
+    margin-bottom: 4%;
+}
+
+.coding-png{
+    margin-right: 0%;
+    margin-top: 2%;
+}
+.documentation-btn{
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, orange);
+    padding: 8px 25px;
+    color: whitesmoke;
+    
+}
+.project-png{
+    margin-left: 5%;
+}
+.community-text h1{
+    font-size: 35px;
+}
+.community-text p{
+    margin-bottom: 4%;
+}
+.global-btn{
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, orange);
+    padding: 8px 25px;
+    text-decoration: none;
+    color: whitesmoke;
+}
